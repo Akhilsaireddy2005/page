@@ -1,0 +1,20 @@
+{% extends 'App_22_3/base.html' %}
+{% load static %} 
+{% block content %}
+<section class="projects">
+    <h2>My Projects</h2>
+    <div class="project-gallery">
+        <div class="project">
+            <img src="{% static 'App_22_3/images/library.png' %}" alt="Project 1">
+            <h3>Library Management System</h3>
+            <p>A Library Management System is software that helps manage and organize library resources, including cataloging books, tracking borrowed items, and managing member accounts.</p>
+            <a href="https://github.com/Udayasindhu23/LibraryManagementSystem" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project">
+            <img src="{% static 'App_22_3/images/health.png' %}" height=450 alt="Project 2">
+            <h3>Health Tracking Fitness</h3>
+            <p>Health Tracking Fitness is a system or app that monitors and analyzes personal health metrics, like physical activity, heart rate, sleep, and nutrition, to help users achieve fitness goals.</p>
+        </div>
+    </div>
+</section>
+{% endblock %}

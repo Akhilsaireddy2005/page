@@ -1,0 +1,57 @@
+{% extends 'App_22_3/base.html' %}
+{% load static %} 
+{% block content %}
+    <section class="personal-details">
+        <h2>Personal Details</h2>
+        <img src="{% static 'App_22_3/images/akhil.jpg' %}" width=160 height=150 alt="Akhil's Profile Picture">
+        <ul>
+            <li><strong>Name:</strong> Jaggavarapu Akhil Sai Reddy</li>
+            <li><strong>Father's Name:</strong>Jaggavarapu Ramesh </li>
+            <li><strong>Mother's Name:</strong> Jaggavarapu Krishna Kumari</li>
+            <li><strong>Father's Profession :</strong> Private job</li>
+            <li><strong>School :</strong> Sree Aditya  School</li>
+            <li><strong>Intermediate College:</strong> Narayana collage</li>
+            <li><strong>University  :</strong> Klh University</li>
+            <li><strong>Date Of Birth  :</strong> 05/06/2005</li>
+            <li><strong>Contact  :</strong> xxxxxxxx29</li>
+        </ul>
+    </section>
+    
+    <section class="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Playing cricket</li>
+            <li>Reading books</li>
+            <li>playing online chess</li>
+        </ul>
+    </section>
+    
+    <section class="achievements">
+        <h2>Achievements</h2>
+        <ul>
+            <li>Aws gobal Certificate</li>
+            <li>Alteryc Eduskill Certificate</li>
+            <li>Robo Race</li>
+            <!-- Add more achievements as needed -->
+        </ul>
+    </section>
+    <section class="hobbies">
+        <h2>Favourite Places</h2>
+        <ul>
+            <li>Maldives</li>
+            <li>Kerala</li>
+            <li>Chennai</li>
+        </ul>
+    </section>
+    <h3 class="section-subtitle">Skills</h3>
+        <ul class="skills-list">
+            <li>Python, Django</li>
+            <li>HTML, JavaScript</li>
+            <li>Database Management</li>
+            <li>Git/GitHub - Version Control</li>
+            <li>Problem-Solving (LeetCode, HackerRank)</li>
+            <li>Object-Oriented Programming (OOP)</li>
+        </ul>
+    
+{% endblock %}
+
